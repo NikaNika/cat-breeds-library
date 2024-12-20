@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { BreedsService } from '../../shared/services/breeds.service';
 import { Breed } from '../../shared/interfaces/breed';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-portfolio',
   standalone: true,
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './portfolio.component.html',
   styleUrl: './portfolio.component.scss',
 })

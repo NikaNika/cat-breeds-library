@@ -1,5 +1,5 @@
 export interface Breed {
-  id: number | string,
+  id: string,
   position: number,
   title: string,
   description_short: string,

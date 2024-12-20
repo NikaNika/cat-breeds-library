@@ -57,7 +57,7 @@
       @for (item of filtered_breedItems; track $index) {
       <a
         class="relative flex flex-col items-center justify-center p-6 h-36 space-y-4 overflow-hidden transition-shadow duration-100 bg-cover shadow-xl rounded-2xl group hover:shadow-2xl"
-        href="/"        
+        [routerLink]="['/portfolio', item.id]"        
         ><div class="absolute inset-0">
           <div
             class="absolute bottom-0 left-0 z-10 opacity-30 bg-gradient-to-b from-transparent to-gray-900"

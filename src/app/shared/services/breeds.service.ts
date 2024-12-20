@@ -7,7 +7,7 @@ import { Breed } from '../interfaces/breed';
 export class BreedsService {
   public breeds: Breed[] = [
     {
-      id: 1,
+      id: '1',
       position: 3,
       title: 'Abyssinian',
       description_short:
@@ -29,7 +29,7 @@ export class BreedsService {
       img: '../../../../assets/images/cats/abyssinian/abyssinian-photo-0.jpg',
     },
     {
-      id: 2,
+      id: '2',
       position: 1,
       title: 'American Shorthair',
       description_short:
@@ -51,7 +51,7 @@ export class BreedsService {
       img: '../../../../assets/images/cats/american-shorthair/american-shorthair-0.jpg',
     },
     {
-      id: 3,
+      id: '3',
       position: 2,
       title: 'Bambino',
       description_short:
@@ -73,7 +73,7 @@ export class BreedsService {
       img: '../../../../assets/images/cats/bambino/bambino-0.jpg',
     },
     {
-      id: 4,
+      id: '4',
       position: 21,
       title: 'Aegean',
       description_short:
@@ -95,7 +95,7 @@ export class BreedsService {
       img: '../../../../assets/images/cats/aegean/aegean-0.jpg',
     },
     {
-      id: 5,
+      id: '5',
       position: 12,
       title: 'American Bobtail',
       description_short:
@@ -117,7 +117,7 @@ export class BreedsService {
       img: '../../../../assets/images/cats/american-bobtail/american-bobtail-0.jpg',
     },
     {
-      id: 6,
+      id: '6',
       position: 8,
       title: 'American Curl',
       description_short:
@@ -139,7 +139,7 @@ export class BreedsService {
       img: '../../../../assets/images/cats/american-curl/american-curl-0.jpg',
     },
     {
-      id: 7,
+      id: '7',
       position: 2,
       title: 'American Wirehair',
       description_short:
@@ -162,7 +162,7 @@ export class BreedsService {
       img: '../../../../assets/images/cats/american-wirehair/american-wirehair-0.jpg',
     },
     {
-      id: 8,
+      id: '8',
       position: 23,
       title: 'Arabian Mau',
       description_short:
@@ -183,6 +183,50 @@ export class BreedsService {
       stranger_friendly: 3,
       img: '../../../../assets/images/cats/arabian-mau/arabian-mau-0.jpg',
     },
+    {
+      id: '9',
+      position: 29,
+      title: 'Australian Mist',
+      description_short:
+        'The Australian Mist is a friendly and adaptable cat breed with a stunning spotted or marbled coat. Known for their affectionate and calm temperament, they thrive as indoor companions and are great with families and other pets.',
+      description:
+        'The Australian Mist is a unique and charming breed that originated in Australia during the 1970s. Developed by crossing Burmese, Abyssinian, and domestic short-haired cats, this breed boasts a distinctive spotted or marbled coat with a soft, misty appearance. Their coats come in various colors, including brown, blue, chocolate, lilac, and gold. Australian Mists are renowned for their affectionate, friendly, and gentle nature. They are social cats that love being around their human companions and adapt well to indoor living, making them an excellent choice for families or individuals with limited outdoor space. Their calm and playful demeanor makes them wonderful with children and compatible with other pets. As low-maintenance cats, Australian Mists require minimal grooming due to their short coats. They enjoy interactive play and mental stimulation, thriving in environments where they can engage with toys or spend quality time with their owners. Overall, the Australian Mist is a loving and adaptable breed, perfect for anyone seeking a loyal and easygoing feline friend.',
+      temperament: 'Lively, Social, Fun-loving, Relaxed, Affectionate',
+      origin: 'Australia',
+      life_span_from: 12,
+      life_span_to: 16,
+      adaptability: 5,
+      affection_level: 5,
+      child_friendly: 4,
+      grooming: 3,
+      intelligence: 4,
+      health_issues: 1,
+      social_needs: 4,
+      stranger_friendly: 4,
+      img: '../../../../assets/images/cats/australian-mist/australian-mist-0.jpg',
+    },
+    {
+      id: '10',
+      position: 13,
+      title: 'Balinese',
+      description_short:
+        'The Balinese is an elegant and affectionate cat breed known for its silky, medium-length coat and striking blue eyes. Playful, intelligent, and social, they form strong bonds with their families and are perfect companions for those seeking an interactive pet.',
+      description:
+        'The Balinese is a graceful and highly intelligent cat breed, often admired for its sleek, medium-length coat and vibrant blue almond-shaped eyes. Originating as a naturally occurring mutation of the Siamese, the Balinese shares the Siamese’s elegance but with a softer, flowing coat. Their fur is fine and silky, and they come in a variety of pointed colors, including seal, blue, chocolate, and lilac. Known for their affectionate and outgoing personalities, Balinese cats are incredibly social and thrive on interaction with their human companions. They are playful and curious, often engaging in activities or games that challenge their intelligence. Their vocal nature and melodious meows make them great communicators, ensuring they’re always part of the family’s activities. Balinese cats are excellent for families, singles, or households with other pets, as they adapt well to a variety of environments. Despite their luxurious coats, they require minimal grooming due to their lack of an undercoat. With their blend of beauty, brains, and charm, the Balinese is an ideal choice for anyone seeking a devoted and interactive feline companion.',
+      temperament: 'Affectionate, Intelligent, Playful',
+      origin: 'United States',
+      life_span_from: 10,
+      life_span_to: 15,
+      adaptability: 5,
+      affection_level: 5,
+      child_friendly: 4,
+      grooming: 3,
+      intelligence: 4,
+      health_issues: 3,
+      social_needs: 4,
+      stranger_friendly: 4,
+      img: '../../../../assets/images/cats/balinese/balinese-0.jpg',
+    },
   ];
 
   constructor() {}
@@ -191,8 +235,8 @@ export class BreedsService {
     return this.breeds;
   }
 
-  public getBreed(id: number | string): Breed | null {
-    const breed = this.getBreeds().find((item) => item.id) || null;
+  public getBreed(id: string): Breed | null {
+    const breed = this.getBreeds().find((item) => item.id === id) || null;
     return breed;
   }
 }

@@ -16,5 +16,6 @@ export interface Breed {
   health_issues: number,
   social_needs: number,
   stranger_friendly: number,
-  img: string,  
+  img: string,
+  moreImages: string[];
 }

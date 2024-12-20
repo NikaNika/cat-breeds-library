@@ -15,7 +15,7 @@ export class BreedComponent implements OnInit {
   public breed: Breed | null;
   public rates: number[] = [1, 2, 3, 4, 5];
 
-  constructor(private route: ActivatedRoute, private breeds: BreedsService) {}
+  constructor(private route: ActivatedRoute, private breeds: BreedsService,) {}
 
   ngOnInit(): void {
     window.scrollTo(0, 0);

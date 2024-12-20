@@ -13,7 +13,7 @@ export class BreedsService {
       description_short:
         'The Abyssinian is one of the oldest and most elegant cat breeds. Known for its sleek, ticked coat and playful personality, this breed is highly active and social. Abyssinians are intelligent, curious, and form strong bonds with their owners, making them wonderful companions.',
       description:
-        'The Abyssinian is a stunning and ancient breed, often referred to as the "cat of the Nile" due to its resemblance to the sacred felines depicted in Egyptian art. Its origins are believed to trace back to Ethiopia, once known as Abyssinia, which inspired the breed\'s name. Characterized by its lithe and muscular body, the Abyssinian is most famous for its unique ticked coat, where each hair is banded with different colors, creating a warm and glowing appearance. Their coat colors range from the classic ruddy to cinnamon, blue, and fawn. Their almond-shaped eyes, often golden or green, radiate intelligence and curiosity. Abyssinians are incredibly active and playful, earning them the nickname "clowns of the cat kingdom." They thrive in environments where they can explore, climb, and engage in interactive play. These cats are highly intelligent and can be taught tricks or stimulated with puzzle toys. Despite their lively nature, Abyssinians are also deeply affectionate and loyal. They form strong bonds with their families and enjoy being involved in daily activities, whether it\'s lounging nearby or chasing a toy across the room. They are not typically lap cats but love being close to their humans, often following them around the house. The breed is generally healthy, though they can be predisposed to certain genetic conditions like periodontal disease or pyruvate kinase deficiency. Regular vet checkups and proper care can help ensure a long, happy life. Overall, the Abyssinian is a perfect choice for those seeking an energetic, intelligent, and loving companion. Their blend of beauty, personality, and historical charm makes them a truly unique and cherished breed.',
+        'The Abyssinian is a stunning and ancient breed, often referred to as the "cat of the Nile" due to its resemblance to the sacred felines depicted in Egyptian art. Its origins are believed to trace back to Ethiopia, once known as Abyssinia, which inspired the breed\'s name. Characterized by its lithe and muscular body, the Abyssinian is most famous for its unique ticked coat, where each hair is banded with different colors, creating a warm and glowing appearance. Their coat colors range from the classic ruddy to cinnamon, blue, and fawn. Their almond-shaped eyes, often golden or green, radiate intelligence and curiosity. Abyssinians are incredibly active and playful, earning them the nickname "clowns of the cat kingdom." They thrive in environments where they can explore, climb, and engage in interactive play. These cats are highly intelligent and can be taught tricks or stimulated with puzzle toys. Despite their lively nature, Abyssinians are also deeply affectionate and loyal. They form strong bonds with their families and enjoy being involved in daily activities, whether it\'s lounging nearby or chasing a toy across the room. They are not typically lap cats but love being close to their humans, often following them around the house. The breed is generally healthy, though they can be predisposed to certain genetic conditions like periodontal disease or pyruvate kinase deficiency. Regular vet checkups, a balanced diet, and proper dental care are essential to maintaining their health. Abyssinians are known for their graceful movements and social demeanor, making them an excellent addition to households that value an interactive and engaging pet. Overall, the Abyssinian is a perfect choice for those seeking an energetic, intelligent, and loving companion. Their blend of beauty, personality, and historical charm makes them a truly unique and cherished breed that continues to captivate cat enthusiasts worldwide.',
       temperament: 'Active, Energetic, Independent, Intelligent, Gentle',
       origin: 'Egypt',
       life_span_from: 14,
@@ -27,6 +27,14 @@ export class BreedsService {
       social_needs: 5,
       stranger_friendly: 5,
       img: '../../../../assets/images/cats/abyssinian/abyssinian-photo-0.jpg',
+      moreImages: [
+        '../../../../assets/images/cats/abyssinian/abyssinian-photo-1.jpg',
+        '../../../../assets/images/cats/abyssinian/abyssinian-photo-2.jpg',
+        '../../../../assets/images/cats/abyssinian/abyssinian-photo-3.jpg',
+        '../../../../assets/images/cats/abyssinian/abyssinian-photo-4.jpg',
+        '../../../../assets/images/cats/abyssinian/abyssinian-photo-5.jpg',
+        '../../../../assets/images/cats/abyssinian/abyssinian-photo-6.jpg',
+      ],
     },
     {
       id: '2',
@@ -35,7 +43,7 @@ export class BreedsService {
       description_short:
         'The American Shorthair is a versatile and affectionate breed known for its robust build and striking coat patterns. These cats are friendly, easygoing, and adaptable, making them perfect companions for families, singles, and seniors alike.',
       description:
-        'The American Shorthair is a beloved breed with roots tracing back to the early settlers of North America. Originally prized for their exceptional hunting skills, these cats were brought aboard ships to protect valuable cargo from rodents. Over time, they evolved into the well-rounded and adaptable companions we know today. Renowned for their sturdy, muscular bodies, American Shorthairs come in a wide variety of colors and patterns, including the iconic silver tabby. Their short, dense coat requires minimal grooming, making them a low-maintenance option for busy owners. These cats are known for their calm and friendly nature, making them an excellent choice for families with children or other pets. They are affectionate without being overly demanding, striking the perfect balance between independence and companionship. The American Shorthair is also a healthy and long-lived breed, often enjoying a lifespan of 15 years or more with proper care. Their playful and intelligent personalities make them entertaining and engaging pets, whether they’re chasing a toy or lounging by your side. Overall, the American Shorthair is a versatile and dependable breed that brings joy, charm, and warmth to any household.',
+        'The American Shorthair is a beloved and versatile breed with roots tracing back to the early settlers of North America. Originally prized for their exceptional hunting skills, these cats were brought aboard ships to protect valuable cargo from rodents and quickly proved themselves indispensable. Over time, they evolved into the well-rounded and adaptable companions we know today. Renowned for their sturdy, muscular bodies, American Shorthairs come in a wide variety of colors and patterns, including the iconic silver tabby, which is especially popular. Their short, dense coat is not only beautiful but also requires minimal grooming, making them a low-maintenance option for busy owners or first-time pet parents. These cats are celebrated for their calm, friendly, and even-tempered nature, which makes them an excellent choice for families with children, other pets, or households that value a peaceful atmosphere. They are affectionate without being overly demanding, striking the perfect balance between independence and companionship. American Shorthairs are also a remarkably healthy and long-lived breed, often enjoying a lifespan of 15 years or more with proper care, including a nutritious diet and regular veterinary checkups. Their playful and intelligent personalities make them endlessly entertaining and engaging pets, whether they’re chasing a favorite toy, exploring their surroundings, or curling up beside you for a quiet moment. What truly sets the American Shorthair apart is their adaptability and dependable demeanor. They can thrive in various living environments, from bustling family homes to quieter apartments, and they tend to adjust well to changes in routine or surroundings. This blend of charm, resilience, and low-maintenance care makes the American Shorthair a truly exceptional breed. They bring joy, warmth, and enduring companionship to any household lucky enough to have them.',
       temperament: 'Active, Curious, Easy Going, Playful, Calm',
       origin: 'United States',
       life_span_from: 15,
@@ -49,6 +57,14 @@ export class BreedsService {
       social_needs: 4,
       stranger_friendly: 3,
       img: '../../../../assets/images/cats/american-shorthair/american-shorthair-0.jpg',
+      moreImages: [
+        '../../../../assets/images/cats/american-shorthair/american-shorthair-1.jpg',
+        '../../../../assets/images/cats/american-shorthair/american-shorthair-2.jpg',
+        '../../../../assets/images/cats/american-shorthair/american-shorthair-3.jpg',
+        '../../../../assets/images/cats/american-shorthair/american-shorthair-4.jpg',
+        '../../../../assets/images/cats/american-shorthair/american-shorthair-5.jpg',
+        '../../../../assets/images/cats/american-shorthair/american-shorthair-6.jpg',
+      ],
     },
     {
       id: '3',
@@ -57,7 +73,7 @@ export class BreedsService {
       description_short:
         'The Bambino is a unique and rare breed known for its hairless body and short legs. Playful, affectionate, and full of charm, these cats are perfect companions for those seeking an outgoing and loving pet.',
       description:
-        'The Bambino is a distinctive and relatively new breed, created by crossing the Sphynx and Munchkin breeds. This combination results in a cat with a hairless body, like the Sphynx, and short legs, characteristic of the Munchkin. Despite their small stature, Bambinos are energetic, agile, and surprisingly capable climbers. Known for their affectionate and social nature, Bambinos form close bonds with their families and thrive on attention. They are playful, curious, and love to be involved in household activities. Their unique appearance, featuring large ears and expressive eyes, makes them stand out and captures the hearts of cat enthusiasts worldwide. Although they lack fur, Bambinos require regular skincare to keep their skin healthy and free from oil buildup. Weekly baths and moisturizing are essential parts of their grooming routine. Their short legs do not hinder their movement, but they often use their cleverness to adapt to their surroundings. The Bambino is an excellent choice for those seeking a rare and loving companion. Their combination of charm, intelligence, and devotion makes them a truly unforgettable breed.',
+        "The Bambino is a distinctive and relatively new breed that stands out for its unique combination of traits, created by crossing the Sphynx and Munchkin breeds. This mix results in a cat with a hairless body, like the Sphynx, and short legs, characteristic of the Munchkin. Their lack of fur enhances their distinctive appearance, showcasing their prominent features such as large, bat-like ears and expressive, almond-shaped eyes. Despite their small stature, Bambinos are full of energy, agility, and playfulness. They are surprisingly capable climbers, often defying expectations with their ability to navigate furniture and high spaces. Bambinos are known for their affectionate, friendly, and social personalities. They form strong bonds with their families and crave attention, making them perfect companions for individuals or households looking for an interactive pet. These cats thrive on being involved in daily activities, whether it's following their owners around the house, playing with toys, or simply curling up next to them for some quality time. Their curiosity and intelligence make them quick learners, and they often exhibit entertaining behaviors that captivate those around them. Their unique appearance and engaging personality have earned Bambinos a loyal following among cat enthusiasts worldwide. However, owning a Bambino comes with specific responsibilities. While they are hairless, their skin requires regular care to remain healthy and free from oil buildup. Weekly baths, gentle cleansing, and occasional moisturizing are essential to their grooming routine. Their short legs may limit their jumping ability compared to other breeds, but Bambinos are resourceful and use their cleverness to adapt to any environment. This breed's combination of charm, intelligence, and devotion makes them a truly unforgettable choice for those seeking a rare and loving companion. Bambinos are not just pets; they are affectionate and loyal members of the family, bringing joy and laughter to any home lucky enough to have them. Their playful antics, endearing personality, and striking appearance make them one of the most unique and cherished cat breeds in the world.",
       temperament: 'Affectionate, Lively, Friendly, Intelligent',
       origin: 'United States',
       life_span_from: 12,
@@ -71,6 +87,14 @@ export class BreedsService {
       social_needs: 3,
       stranger_friendly: 3,
       img: '../../../../assets/images/cats/bambino/bambino-0.jpg',
+      moreImages: [
+        '../../../../assets/images/cats/bambino/bambino-1.jpg',
+        '../../../../assets/images/cats/bambino/bambino-2.jpg',
+        '../../../../assets/images/cats/bambino/bambino-3.jpg',
+        '../../../../assets/images/cats/bambino/bambino-4.jpg',
+        '../../../../assets/images/cats/bambino/bambino-5.jpg',
+        '../../../../assets/images/cats/bambino/bambino-6.jpg',
+      ],
     },
     {
       id: '4',
@@ -79,7 +103,7 @@ export class BreedsService {
       description_short:
         'The Aegean is a rare and natural breed originating from the Greek Cycladic Islands. Known for its friendly and social nature, this medium-sized cat has a striking bicolor or tricolor coat and enjoys being around people, making it a wonderful companion.',
       description:
-        'The Aegean cat is a rare and ancient breed that hails from the Cycladic Islands in Greece. Believed to have developed naturally over centuries, it is one of the few breeds to originate without human intervention. These cats are medium-sized with a muscular build, almond-shaped eyes, and a beautiful bicolor or tricolor coat, often featuring white paired with shades of black, gray, or red. Aegeans are renowned for their friendly and social personalities. They form strong bonds with their families and are known to be highly affectionate and interactive. These cats thrive on attention and enjoy being part of daily household activities. Their playful and curious nature makes them a joy to have around, and they often get along well with other pets and children. As descendants of seafaring cats, Aegeans are excellent hunters and have a natural affinity for water, which is unusual among felines. They are relatively low-maintenance, with their semi-long fur requiring only occasional brushing to stay in top condition. The Aegean cat is a healthy and robust breed, well-suited for both indoor and outdoor living. Their adaptability and charm make them an ideal choice for families and individuals seeking a loving and engaging companion with a rich history.',
+        'The Aegean cat is a rare and ancient breed that originates from the Cycladic Islands in Greece. Believed to have developed naturally over centuries, it is one of the few breeds that emerged without deliberate human intervention. This unique heritage has resulted in a cat with a strong, independent character and remarkable adaptability. Medium-sized with a muscular and athletic build, Aegean cats possess a striking appearance, featuring almond-shaped eyes that exude intelligence and a stunning bicolor or tricolor coat. Their fur is often white paired with shades of black, gray, or red, giving them a distinct and elegant look that reflects their Mediterranean roots. Known for their friendly, sociable, and affectionate nature, Aegean cats are wonderful companions. They form deep bonds with their families and thrive on interaction, often seeking out attention and engaging in household activities. These cats are not only playful and curious but also intelligent, making them a joy to have around. Their outgoing temperament allows them to get along well with children and other pets, making them a great addition to multi-pet households or families with active lifestyles. As descendants of seafaring cats that roamed fishing boats, Aegeans have retained their excellent hunting skills and a surprising fondness for water, which is a rare trait among feline breeds. They may enjoy playing with water dishes or even exploring shallow water areas, showcasing their adventurous spirit. Despite their semi-long fur, they are relatively low-maintenance, requiring only occasional brushing to keep their coat in excellent condition. Aegean cats are known for their robust health and natural hardiness, making them well-suited for both indoor and outdoor living. They adapt easily to different environments and climates, provided they have a safe and loving home. Their lively, engaging personalities and rich history make them an ideal choice for families, individuals, and anyone looking for a cat that is both affectionate and full of character. With their mix of charm, intelligence, and a touch of wild spirit, the Aegean cat is a breed that continues to captivate cat lovers around the world.',
       temperament: 'Affectionate, Social, Intelligent, Playful, Active',
       origin: 'Greece',
       life_span_from: 9,
@@ -93,6 +117,14 @@ export class BreedsService {
       social_needs: 4,
       stranger_friendly: 4,
       img: '../../../../assets/images/cats/aegean/aegean-0.jpg',
+      moreImages: [
+        '../../../../assets/images/cats/aegean/aegean-1.jpg',
+        '../../../../assets/images/cats/aegean/aegean-2.jpg',
+        '../../../../assets/images/cats/aegean/aegean-3.jpg',
+        '../../../../assets/images/cats/aegean/aegean-4.jpg',
+        '../../../../assets/images/cats/aegean/aegean-5.jpg',
+        '../../../../assets/images/cats/aegean/aegean-6.jpg',
+      ],
     },
     {
       id: '5',
@@ -101,7 +133,7 @@ export class BreedsService {
       description_short:
         'The American Bobtail is a playful and intelligent breed, recognized for its distinctive short tail and wild appearance. Known for their friendly and adaptable nature, these cats are devoted companions that bond deeply with their families.',
       description:
-        'The American Bobtail is a unique and versatile breed, renowned for its striking appearance and distinctive short tail, which is the result of a natural genetic mutation. Their robust, muscular build and wild, lynx-like features give them a rugged charm that captivates cat enthusiasts worldwide. This breed is not only beautiful but also highly intelligent and playful. American Bobtails are known for their dog-like personalities; they are loyal, affectionate, and enjoy interactive play, such as fetching toys or solving puzzles. They are also excellent travel companions, as they adapt well to new environments and are generally calm under stress. American Bobtails are social cats that form strong bonds with their families. They get along well with children, other pets, and even strangers, making them a great choice for households of all sizes. Despite their energetic and playful nature, they also enjoy lounging and cuddling, striking a perfect balance between activity and relaxation. Their coat can vary in length and comes in a wide range of colors and patterns. Regular grooming helps keep their fur in great condition. As a healthy and resilient breed, American Bobtails are relatively low-maintenance, with a lifespan of 13–15 years or more. Whether you’re looking for a loyal companion or an interactive playmate, the American Bobtail’s charm, intelligence, and affectionate nature make it an exceptional choice for any cat lover.',
+        'The American Bobtail is a unique and versatile breed, renowned for its striking appearance and distinctive short tail, which is the result of a natural genetic mutation. This breed’s robust, muscular build and wild, lynx-like features give them a rugged charm that captivates cat enthusiasts worldwide. Their expressive eyes and tufted ears add to their exotic appearance, making them one of the most visually captivating breeds. The American Bobtail is not just beautiful but also highly intelligent and playful. Known for their dog-like personalities, they are loyal, affectionate, and thrive on interactive play, enjoying activities like fetching toys, solving puzzles, and exploring their surroundings with their families. These cats are also excellent travel companions, as they adapt well to new environments and tend to remain calm even under stressful situations. Their sociable and adaptable nature makes them a joy to have around, and they form deep bonds with their families. They are especially good with children and other pets, easily fitting into households of all sizes. Even with strangers, they are often friendly and approachable, adding to their reputation as a well-rounded and outgoing breed. Despite their energetic and playful nature, American Bobtails also appreciate quiet moments and enjoy lounging or cuddling with their favorite humans. They strike a perfect balance between activity and relaxation, making them ideal companions for those who want an affectionate and engaging pet. Their coats, which can vary in length and come in a wide range of colors and patterns, are relatively easy to care for with regular grooming to keep their fur in top condition. As a healthy and resilient breed, American Bobtails are relatively low-maintenance, often enjoying a lifespan of 13–15 years or more with proper care. Their versatility, charm, and affectionate nature make them an exceptional choice for cat lovers who are looking for a loyal companion, an interactive playmate, or simply a beautiful addition to their family. The American Bobtail truly offers a little bit of everything, combining intelligence, personality, and rugged good looks into one remarkable feline package.',
       temperament: 'Intelligent, Interactive, Lively, Playful, Sensitive',
       origin: 'United States',
       life_span_from: 13,
@@ -115,6 +147,14 @@ export class BreedsService {
       social_needs: 3,
       stranger_friendly: 3,
       img: '../../../../assets/images/cats/american-bobtail/american-bobtail-0.jpg',
+      moreImages: [
+        '../../../../assets/images/cats/american-bobtail/american-bobtail-1.jpg',
+        '../../../../assets/images/cats/american-bobtail/american-bobtail-2.jpg',
+        '../../../../assets/images/cats/american-bobtail/american-bobtail-3.jpg',
+        '../../../../assets/images/cats/american-bobtail/american-bobtail-4.jpg',
+        '../../../../assets/images/cats/american-bobtail/american-bobtail-5.jpg',
+        '../../../../assets/images/cats/american-bobtail/american-bobtail-6.jpg',
+      ],
     },
     {
       id: '6',
@@ -123,7 +163,7 @@ export class BreedsService {
       description_short:
         'The American Curl is a unique and affectionate breed known for its distinctive curled-back ears. Friendly and playful, they adapt well to families and other pets, making them ideal companions with a touch of elegance and charm.',
       description:
-        'The American Curl is a remarkable breed, instantly recognizable by its signature curled-back ears. This unique feature is the result of a natural genetic mutation, first observed in California in the 1980s. Their ears, which curl backward in a graceful arc, give them a perpetually alert and curious expression, adding to their distinctive appeal. American Curls come in both long-haired and short-haired varieties, with silky coats that are low-maintenance and come in a wide range of colors and patterns. Their medium-sized, well-proportioned bodies and expressive almond-shaped eyes add to their overall elegance. Beyond their striking appearance, American Curls are known for their affectionate and sociable nature. They are gentle, playful, and form deep bonds with their families. This breed is highly adaptable and gets along well with children, other pets, and even strangers, making them a great choice for any household. American Curls retain their kitten-like playfulness well into adulthood, often engaging in games and interactive activities. They are curious and intelligent, often exploring their surroundings and seeking out attention from their owners. As a generally healthy breed with minimal grooming needs, American Curls are relatively easy to care for. Regular ear checks are important to ensure cleanliness and health, given their unique ear structure. With their blend of elegance, intelligence, and affectionate nature, the American Curl is a delightful companion that brings joy and charm to any home.',
+        'The American Curl is a remarkable and distinctive breed, instantly recognizable by its signature curled-back ears. This unique feature, resulting from a natural genetic mutation first observed in California in the 1980s, sets them apart from other breeds. Their ears curl backward in a graceful arc, giving them a perpetually alert, curious, and almost whimsical expression that captivates cat lovers worldwide. American Curls come in both long-haired and short-haired varieties, boasting silky coats that require minimal grooming. These coats come in an impressive array of colors and patterns, further enhancing their visual appeal. Their medium-sized, well-proportioned bodies, combined with expressive almond-shaped eyes, lend them an air of elegance and sophistication. Beyond their striking looks, American Curls are beloved for their affectionate, sociable, and easygoing personalities. They form deep, loving bonds with their families and are known for their gentle and playful demeanor. This breed is highly adaptable and thrives in various environments, making them an excellent choice for households with children, other pets, or frequent visitors. Their friendly nature extends even to strangers, ensuring they are welcoming and approachable companions. One of the most endearing traits of the American Curl is their kitten-like playfulness, which they retain well into adulthood. They love engaging in games, interactive activities, and exploring their surroundings with curiosity and intelligence. Whether chasing a toy or investigating a new corner of the house, these cats bring energy and joy to their homes. Caring for an American Curl is relatively easy, as they are generally a healthy breed with minimal grooming needs. Their unique ear structure does require regular checks to ensure cleanliness and prevent any potential health issues. With proper care, these cats enjoy a long and happy life, providing their owners with years of companionship. With their blend of unique beauty, intelligence, playful spirit, and affectionate nature, the American Curl is a delightful addition to any household. They are not just pets but cherished family members who bring charm, warmth, and endless joy to their homes.',
       temperament: 'Affectionate, Lively, Friendly, Intelligent',
       origin: 'United States',
       life_span_from: 12,
@@ -137,6 +177,14 @@ export class BreedsService {
       social_needs: 3,
       stranger_friendly: 3,
       img: '../../../../assets/images/cats/american-curl/american-curl-0.jpg',
+      moreImages: [
+        '../../../../assets/images/cats/american-curl/american-curl-1.jpg',
+        '../../../../assets/images/cats/american-curl/american-curl-2.jpg',
+        '../../../../assets/images/cats/american-curl/american-curl-3.jpg',
+        '../../../../assets/images/cats/american-curl/american-curl-4.jpg',
+        '../../../../assets/images/cats/american-curl/american-curl-5.jpg',
+        '../../../../assets/images/cats/american-curl/american-curl-6.jpg',
+      ],
     },
     {
       id: '7',
@@ -145,7 +193,7 @@ export class BreedsService {
       description_short:
         'The American Wirehair is a rare and resilient breed known for its distinctive wiry coat. Friendly, adaptable, and playful, these cats are low-maintenance companions that easily fit into any household, offering a perfect mix of charm and independence.',
       description:
-        "The American Wirehair is a unique and rare breed, originating in the United States in the 1960s. This breed is most famous for its springy, wiry coat, which sets it apart from other cats. The wiry texture is the result of a natural genetic mutation and can vary in density, giving each American Wirehair a one-of-a-kind look. Their coat comes in a variety of colors and patterns, adding to their distinctive charm. These cats have a medium-sized, muscular build with a round face and expressive eyes. They are highly adaptable and thrive in a variety of environments, from bustling families to quiet single-person homes. The American Wirehair is known for its friendly and easygoing personality. They are affectionate without being overly demanding and enjoy spending time with their families, whether it's playing or relaxing. Playful and curious, American Wirehairs have a strong hunting instinct, which makes them great at interactive games and exploring their surroundings. Despite their active nature, they are also independent and content to entertain themselves when needed. One of the highlights of this breed is its low-maintenance grooming requirements. Their wiry coat does not mat easily and needs only occasional brushing. Additionally, American Wirehairs are known for being a healthy and hardy breed, with few genetic health concerns. With their unique appearance, friendly disposition, and low-maintenance care, the American Wirehair is a wonderful choice for those seeking a charming and adaptable feline companion.",
+        "The American Wirehair is a unique and rare breed that originated in the United States during the 1960s. Renowned for its springy, wiry coat, this cat stands out from other breeds with its distinct texture, which is the result of a natural genetic mutation. The coat varies in density and comes in a wide range of colors and patterns, ensuring that every American Wirehair has its own distinctive charm. Their medium-sized, muscular build is complemented by a round face, prominent cheekbones, and expressive eyes that radiate intelligence and curiosity. Highly adaptable, the American Wirehair thrives in diverse environments, from lively family homes to quieter single-person households. Their friendly and easygoing nature makes them excellent companions for families, children, and even other pets. These cats are affectionate without being overly demanding, forming strong bonds with their humans while maintaining a sense of independence. They enjoy spending time with their families, whether it's engaging in play, exploring their surroundings, or simply relaxing nearby. Playful and inquisitive, American Wirehairs possess a strong hunting instinct, making them naturals at interactive games and activities that stimulate their minds. Their curious and adventurous nature means they love discovering new spaces and challenges, but they are equally content to entertain themselves when their humans are busy. One of the breed's standout features is its low-maintenance grooming requirements. The wiry coat is resistant to matting and requires only occasional brushing to stay in excellent condition. Additionally, the American Wirehair is known for being a robust and healthy breed, with minimal genetic health issues, making them a relatively low-maintenance choice for cat owners. With their combination of unique appearance, adaptable personality, and low-maintenance care, the American Wirehair is an exceptional choice for anyone looking for a charming, friendly, and independent feline companion. Their mix of playfulness, resilience, and affection ensures they bring joy and warmth to any home they enter.",
       temperament:
         'Affectionate, Curious, Gentle, Intelligent, Interactive, Lively, Loyal, Playful, Sensible, Social',
       origin: 'United States',
@@ -160,6 +208,14 @@ export class BreedsService {
       social_needs: 3,
       stranger_friendly: 3,
       img: '../../../../assets/images/cats/american-wirehair/american-wirehair-0.jpg',
+      moreImages: [
+        '../../../../assets/images/cats/american-wirehair/american-wirehair-1.jpg',
+        '../../../../assets/images/cats/american-wirehair/american-wirehair-2.jpg',
+        '../../../../assets/images/cats/american-wirehair/american-wirehair-3.jpg',
+        '../../../../assets/images/cats/american-wirehair/american-wirehair-4.jpg',
+        '../../../../assets/images/cats/american-wirehair/american-wirehair-5.jpg',
+        '../../../../assets/images/cats/american-wirehair/american-wirehair-6.jpg',
+      ],
     },
     {
       id: '8',
@@ -168,7 +224,7 @@ export class BreedsService {
       description_short:
         'The Arabian Mau is a natural breed from the Arabian Peninsula, known for its athletic build and short, sleek coat. These cats are independent, intelligent, and affectionate, making them loyal companions with a touch of wild elegance.',
       description:
-        'The Arabian Mau is a natural and ancient breed that originated in the deserts of the Arabian Peninsula. Adapted to thrive in harsh climates, these cats have evolved into strong, athletic, and resilient animals. Their sleek, short coats come in a variety of colors and patterns, including white, black, tabby, and calico. Their medium-to-large build, almond-shaped eyes, and expressive faces give them a regal yet approachable appearance. Known for their intelligence and independence, Arabian Maus are highly curious and energetic cats. They are excellent hunters, a trait that reflects their wild ancestry. Despite their independence, they form strong bonds with their families and enjoy spending time with their human companions. They are affectionate, playful, and get along well with children and other pets, making them ideal for family homes. Arabian Maus are low-maintenance cats, requiring minimal grooming due to their short coats. Regular playtime is essential to keep them mentally and physically stimulated, as they have a high energy level and love interactive activities. As a generally healthy and robust breed, the Arabian Mau is well-suited to both indoor and outdoor lifestyles. Their adaptability and loyalty make them a popular choice among cat enthusiasts who appreciate a mix of wild elegance and affectionate companionship.',
+        'The Arabian Mau is a natural and ancient breed that originated in the deserts of the Arabian Peninsula, where it has thrived for centuries. Adapted to survive in harsh climates, these cats are incredibly strong, athletic, and resilient. Their sleek, short coats come in a wide range of colors and patterns, including white, black, tabby, and calico, and their striking appearance is complemented by their medium-to-large build, almond-shaped eyes, and expressive faces that exude both regality and approachability. Known for their intelligence and independence, Arabian Maus are highly curious and energetic cats. They possess exceptional hunting skills, a reflection of their wild ancestry, and are always eager to explore their surroundings. Despite their independent nature, they form deep and loving bonds with their families, showing loyalty and affection to their human companions. Arabian Maus are playful and interactive, making them wonderful companions for children and other pets. Their social and adaptable personalities allow them to fit seamlessly into family life. Arabian Maus are low-maintenance when it comes to grooming, thanks to their short and easy-to-care-for coats. However, they do require plenty of playtime and mental stimulation to satisfy their high energy levels. They particularly enjoy interactive toys and activities that challenge their agility and intellect. As a breed, they are generally healthy and robust, with the ability to thrive in both indoor and outdoor environments. Their adaptability, intelligence, and affectionate nature make the Arabian Mau a popular choice among cat lovers who value a blend of wild elegance and friendly companionship. Whether playing enthusiastically, relaxing nearby, or exploring their domain, these cats bring a unique and vibrant energy to any home they join.',
       temperament: 'Affectionate, Agile, Curious, Independent, Playful, Loyal',
       origin: 'United Arab Emirates',
       life_span_from: 12,
@@ -182,6 +238,14 @@ export class BreedsService {
       social_needs: 3,
       stranger_friendly: 3,
       img: '../../../../assets/images/cats/arabian-mau/arabian-mau-0.jpg',
+      moreImages: [
+        '../../../../assets/images/cats/arabian-mau/arabian-mau-1.jpg',
+        '../../../../assets/images/cats/arabian-mau/arabian-mau-2.jpg',
+        '../../../../assets/images/cats/arabian-mau/arabian-mau-3.jpg',
+        '../../../../assets/images/cats/arabian-mau/arabian-mau-4.jpg',
+        '../../../../assets/images/cats/arabian-mau/arabian-mau-5.jpg',
+        '../../../../assets/images/cats/arabian-mau/arabian-mau-6.jpg',
+      ],
     },
     {
       id: '9',
@@ -190,7 +254,7 @@ export class BreedsService {
       description_short:
         'The Australian Mist is a friendly and adaptable cat breed with a stunning spotted or marbled coat. Known for their affectionate and calm temperament, they thrive as indoor companions and are great with families and other pets.',
       description:
-        'The Australian Mist is a unique and charming breed that originated in Australia during the 1970s. Developed by crossing Burmese, Abyssinian, and domestic short-haired cats, this breed boasts a distinctive spotted or marbled coat with a soft, misty appearance. Their coats come in various colors, including brown, blue, chocolate, lilac, and gold. Australian Mists are renowned for their affectionate, friendly, and gentle nature. They are social cats that love being around their human companions and adapt well to indoor living, making them an excellent choice for families or individuals with limited outdoor space. Their calm and playful demeanor makes them wonderful with children and compatible with other pets. As low-maintenance cats, Australian Mists require minimal grooming due to their short coats. They enjoy interactive play and mental stimulation, thriving in environments where they can engage with toys or spend quality time with their owners. Overall, the Australian Mist is a loving and adaptable breed, perfect for anyone seeking a loyal and easygoing feline friend.',
+        "The Australian Mist is a unique and endearing breed that originated in Australia during the 1970s, making it a relatively modern addition to the feline world. This breed was carefully developed by crossing Burmese, Abyssinian, and domestic short-haired cats, resulting in a cat that combines the best traits of its ancestors. One of its most distinctive features is its beautiful spotted or marbled coat, which has a soft, misty appearance that gives the breed its name. Their coats come in a delightful range of colors, including brown, blue, chocolate, lilac, gold, and peach, adding to their visual appeal. Australian Mists are renowned for their affectionate, friendly, and gentle personalities, making them ideal companions for families, singles, and seniors alike. They are social and thrive on human interaction, often following their owners around the house or curling up beside them for companionship. Their calm temperament and playful nature make them particularly well-suited for homes with children, as they are patient and tolerant, enjoying the energy and attention that kids provide. Additionally, they get along well with other pets, including dogs, making them a versatile choice for multi-pet households. One of the Australian Mist's greatest strengths is its adaptability. These cats are perfectly content with indoor living, making them an excellent choice for individuals or families with limited outdoor space. They are not overly demanding but enjoy engaging in interactive play and mental stimulation. Toys, puzzles, and playtime with their human companions keep them entertained and happy, as they are both intelligent and curious. As a low-maintenance breed, Australian Mists require minimal grooming thanks to their short, easy-to-care-for coats. A quick brush every now and then is sufficient to keep their fur in good condition and to reduce shedding. They are generally healthy cats with a robust constitution, often enjoying long, happy lives with proper care and regular veterinary checkups. Overall, the Australian Mist is a loving, loyal, and adaptable feline companion that brings warmth and joy to any home. Whether lounging peacefully by your side, playing energetically with a favorite toy, or showing affection through gentle nuzzles, this breed's unique charm and endearing nature make it a wonderful choice for cat lovers of all lifestyles. Their blend of beauty, temperament, and ease of care truly sets them apart, making them a beloved and cherished breed worldwide.",
       temperament: 'Lively, Social, Fun-loving, Relaxed, Affectionate',
       origin: 'Australia',
       life_span_from: 12,
@@ -204,6 +268,14 @@ export class BreedsService {
       social_needs: 4,
       stranger_friendly: 4,
       img: '../../../../assets/images/cats/australian-mist/australian-mist-0.jpg',
+      moreImages: [
+        '../../../../assets/images/cats/australian-mist/australian-mist-1.jpg',
+        '../../../../assets/images/cats/australian-mist/australian-mist-2.jpg',
+        '../../../../assets/images/cats/australian-mist/australian-mist-3.jpg',
+        '../../../../assets/images/cats/australian-mist/australian-mist-4.jpg',
+        '../../../../assets/images/cats/australian-mist/australian-mist-5.jpg',
+        '../../../../assets/images/cats/australian-mist/australian-mist-6.jpg',
+      ],
     },
     {
       id: '10',
@@ -212,7 +284,7 @@ export class BreedsService {
       description_short:
         'The Balinese is an elegant and affectionate cat breed known for its silky, medium-length coat and striking blue eyes. Playful, intelligent, and social, they form strong bonds with their families and are perfect companions for those seeking an interactive pet.',
       description:
-        'The Balinese is a graceful and highly intelligent cat breed, often admired for its sleek, medium-length coat and vibrant blue almond-shaped eyes. Originating as a naturally occurring mutation of the Siamese, the Balinese shares the Siamese’s elegance but with a softer, flowing coat. Their fur is fine and silky, and they come in a variety of pointed colors, including seal, blue, chocolate, and lilac. Known for their affectionate and outgoing personalities, Balinese cats are incredibly social and thrive on interaction with their human companions. They are playful and curious, often engaging in activities or games that challenge their intelligence. Their vocal nature and melodious meows make them great communicators, ensuring they’re always part of the family’s activities. Balinese cats are excellent for families, singles, or households with other pets, as they adapt well to a variety of environments. Despite their luxurious coats, they require minimal grooming due to their lack of an undercoat. With their blend of beauty, brains, and charm, the Balinese is an ideal choice for anyone seeking a devoted and interactive feline companion.',
+        'The Balinese is a stunning and highly intelligent cat breed, renowned for its elegance and vibrant personality. With a sleek, medium-length coat that flows gracefully and almond-shaped eyes in a striking shade of blue, this breed is truly captivating. Originating as a natural mutation of the Siamese, the Balinese shares the Siamese’s slender build and elegance but stands out with its soft, silky coat. The fur lies close to the body and lacks an undercoat, making it easy to maintain while adding a luxurious touch to the breed’s overall appearance. Balinese cats come in a range of pointed colors, including seal, blue, chocolate, and lilac, further enhancing their allure. Balinese cats are celebrated not only for their beauty but also for their affectionate and social nature. They form deep bonds with their human companions and thrive in interactive and loving environments. These cats are incredibly outgoing and enjoy being at the center of family life. Whether they’re following you around the house or engaging in playful antics, Balinese cats are always eager to participate in daily activities. Their high intelligence makes them quick learners, and they enjoy games, puzzles, and activities that challenge their minds. One of the breed’s most charming traits is its vocal nature. Balinese cats are known for their melodious and expressive meows, which they use to communicate with their families. They are excellent conversationalists, making them a great match for owners who enjoy a chatty and engaging pet. Despite their energetic and curious nature, Balinese cats also have a calm and affectionate side, often seeking out laps for cuddles or snuggling up beside their favorite humans. Balinese cats are well-suited to a variety of households, whether it’s a bustling family with children, a single person seeking companionship, or a home with other pets. They are adaptable and thrive in both quiet and active environments, as long as they receive the love and attention they crave. Their luxurious coat, while beautiful, requires surprisingly little maintenance. Regular brushing is sufficient to keep their fur in excellent condition, as their lack of an undercoat reduces shedding and matting.',
       temperament: 'Affectionate, Intelligent, Playful',
       origin: 'United States',
       life_span_from: 10,
@@ -226,6 +298,14 @@ export class BreedsService {
       social_needs: 4,
       stranger_friendly: 4,
       img: '../../../../assets/images/cats/balinese/balinese-0.jpg',
+      moreImages: [
+        '../../../../assets/images/cats/balinese/balinese-1.jpg',
+        '../../../../assets/images/cats/balinese/balinese-2.jpg',
+        '../../../../assets/images/cats/balinese/balinese-3.jpg',
+        '../../../../assets/images/cats/balinese/balinese-4.jpg',
+        '../../../../assets/images/cats/balinese/balinese-5.jpg',
+        '../../../../assets/images/cats/balinese/balinese-6.jpg',
+      ],
     },
   ];
 

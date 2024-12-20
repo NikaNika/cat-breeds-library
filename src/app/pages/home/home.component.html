@@ -1,0 +1,53 @@
+<div class="flex flex-col items-center">
+  <section class="hero">
+    <div
+      class="container grid grid-cols-1 sm:grid-cols-2 items-center justify-center gap-5 sm:gap-10"
+    >
+      <div class class="hero-content flex flex-col gap-3 sm:gap-5 px-4 py-6">
+        <h1 class="text-2xl sm:text-4xl font-semibold">
+          Why should you have a Cat?
+        </h1>
+        <p>
+          Having a cat brings joy, companionship, and stress relief. Cats are
+          independent yet affectionate, making them perfect for busy lifestyles.
+          They can improve mental health, reduce loneliness, and create a cozy,
+          loving atmosphere in any home.
+        </p>
+        <div>
+          <a
+            class="text-lg font-semibold bg-green-100 px-4 py-2 rounded active:bg-green-400 hover:bg-green-400 hover:scale-105 transition delay-300 duration-300 ease-linear"
+            routerLink="/portfolio"
+            >Breeds List <i class="bi bi-chevron-right"></i
+          ></a>
+        </div>
+      </div>
+      <div class="info-image">
+        <img
+          src="../../../assets/images/cats/jimmy-the-cat.jpeg"
+          alt="Cat Hero Image"
+        />
+      </div>
+    </div>
+  </section>
+  <section class="bestsellers bg-green-200 w-full p-10">
+    <h2 class="text-center font-semibold text-xl sm:text-2xl uppercase">
+      The most popular cat breeds
+    </h2>
+    @for (breed of popular_breeds; track $index) {
+    <app-most-popular-card
+      [itemData]="breed"
+    ></app-most-popular-card>
+  }
+  </section>
+  <section
+    class="partners flex flex-wrap justify-center items-center gap-8 py-10"
+  >
+    @for (item of partners_img; track $index) {
+    <div>
+      <a href="/" target="_blank"
+        ><img class="w-40 h-auto" [src]="src + item.img" [alt]="item.alt"
+      /></a>
+    </div>
+    }
+  </section>
+</div>

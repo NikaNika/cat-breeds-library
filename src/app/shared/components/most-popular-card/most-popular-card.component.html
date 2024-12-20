@@ -10,7 +10,7 @@
           <div
             class="aspect-w-10 aspect-h-6 rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full"
           >
-            <a href="/"
+            <a [routerLink]="['/portfolio', itemData.id]"
               ><img
                 loading="lazy"
                 class="object-cover lg:h-full lg:w-full"
@@ -25,7 +25,7 @@
           class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:px-0 lg:py-8 lg:max-w-none"
         >
           <h2 class="text-4xl font-semibold uppercase">
-            <a class="hover:underline" href="/">{{itemData.title}}</a>
+            <a class="hover:underline" [routerLink]="['/portfolio', itemData.id]">{{itemData.title}}</a>
           </h2>
           <p class="mt-6 text-lg text-gray-500">
             {{itemData.description_short}}

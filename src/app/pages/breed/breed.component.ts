@@ -18,11 +18,10 @@ export class BreedComponent implements OnInit {
   constructor(private route: ActivatedRoute, private breeds: BreedsService) {}
 
   ngOnInit(): void {
-    // Получаем параметр id из маршрута
+    window.scrollTo(0, 0);
     this.route.paramMap.subscribe((params) => {
       const id = params.get('id');
-      if (id) {
-        // Используем метод getBreed для получения породы по id
+      if (id) {        
         this.breed = this.breeds.getBreed(id);
       }
     });

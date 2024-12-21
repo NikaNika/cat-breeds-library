@@ -15,7 +15,10 @@ export class PortfolioComponent {
   public filtered_breedItems: Breed[] = [];
   public searchText: string = '';
 
-  constructor(private breeds: BreedsService) {
+  constructor(private breeds: BreedsService) {}
+
+  ngOnInit(): void {
+    this.search();
     this.breedItems = this.breeds.getBreeds().sort(function (a, b) {
       if (a.title > b.title) {
         return 1;
@@ -28,11 +31,7 @@ export class PortfolioComponent {
     this.filtered_breedItems = this.breedItems;
   }
 
-  ngOnInit(): void {
-    this.search();
-  }
-
-  searchKey(data: string) {
+  searchKey(data: string): void {
     this.searchText = data.trim();
     this.search();
   }

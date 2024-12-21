@@ -17,11 +17,10 @@ export class HomeComponent {
   public src: string = '../../../assets/images/partners/';
   public partners_img: Partner[];
   public popular_breeds: Breed[];
-  
-  constructor(
-    private breeds: BreedsService,
-    private partners: PartnersService
-  ) {
+
+  constructor(private breeds: BreedsService, private partners: PartnersService) {}
+
+  ngOnInit(): void {
     this.popular_breeds = this.breeds
       .getBreeds()
       .sort((a, b) => b.position - a.position)

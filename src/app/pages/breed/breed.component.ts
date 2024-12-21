@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { BreedsService } from '../../shared/services/breeds.service';
 import { Breed } from '../../shared/interfaces/breed';
 import { NgClass } from '@angular/common';
@@ -7,7 +7,7 @@ import { NgClass } from '@angular/common';
 @Component({
   selector: 'app-breed',
   standalone: true,
-  imports: [NgClass],
+  imports: [NgClass, RouterLink],
   templateUrl: './breed.component.html',
   styleUrl: './breed.component.scss',
 })
